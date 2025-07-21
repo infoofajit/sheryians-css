@@ -13,6 +13,7 @@ html, body {
   width: 400px;
   height: 400px;
   background-color: red;
+  position: relative;
 }
 
 #cube {
@@ -20,5 +21,5 @@ html, body {
   height: 50px;
   background-color: green;
   position: absolute;
-  left: 50%;
+  left: 40%;
 }
