@@ -1,5 +1,7 @@
 width & height
 color
+units - px % vw vh em rem
+max-width & max-height
 font-family
 font-size
 line-height
