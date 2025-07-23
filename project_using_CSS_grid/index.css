@@ -20,7 +20,7 @@ html, body {
 }
 
 #left-top-left {
-  padding: 20px;
+  padding: 30px;
 }
 
 #square {
@@ -31,7 +31,7 @@ html, body {
 }
 
 #left-top-right {
-  padding: 20px;
+  padding: 30px;
   justify-self: right;
   text-align: right;
 }
@@ -44,6 +44,10 @@ html, body {
   font-weight: 500;
   font-size: 14px;
   color: #333;
+}
+
+#left-top-right h6 {
+  display: none;
 }
 
 #left-center {
@@ -100,4 +104,73 @@ html, body {
 #arrow i {
   font-size: 20px;
   font-weight: 100;
+}
+
+@media (max-width: 600px) {
+  #main {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 30% 15% 50%;
+  }
+
+  #left-top-left {
+    padding: 15px;
+  }
+
+  #square {
+    width: 10px;
+    height: 10px;
+  }
+
+  #left-top-right {
+    padding: 15px;
+  }
+  #left-top-right h4 {
+    display: none;
+  }
+
+  #left-top-right h5 {
+    display: none;
+  }
+
+  #left-top-right h6 {
+    display: block;
+    font-size: 4vw;
+  }
+
+  #left-center {
+    padding: 15px;
+  }
+
+  #left-center h2 {
+    font-size: 10vw;
+    line-height: 10vw;
+  }
+
+  #left-bottom {
+    padding: 10px;
+  }
+
+  #left-bottom p {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  #right {
+    grid-column: 1 / 4;
+    grid-row: 4/4;
+    padding: 20px;
+  }
+
+  #arrow {
+    top: 55%;
+    left: 50%;
+    padding: 20px;
+    transform: translate(-50%, -50%) rotate(90deg);
+    
+  }
+
+  #arrow i {
+    font-size: 15px;
+    font-weight: 100;
+  }
 }
