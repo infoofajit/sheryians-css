@@ -35,13 +35,18 @@ html, body {
   position: absolute;
   animation-name: anime;
   animation-duration: 2s;
+  animation-delay: 1s;
 }
 
 @keyframes anime {
   from {
     left: 0;
+    background-color: red;
+    rotate: 0;
   }
   to {
     left: 70%;
+    background-color: blue;
+    rotate: 360deg;
   }
 }
