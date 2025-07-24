@@ -28,25 +28,21 @@ html, body {
   justify-self: start;
 }
 
-#box {
-  width: 400px;
-  height: 400px;
-  background-color: crimson;
+img {
+  height: 200px;
   position: absolute;
-  animation-name: anime;
+  animation-name: chutki-anime;
   animation-duration: 2s;
   animation-delay: 1s;
 }
 
-@keyframes anime {
-  from {
+@keyframes chutki-anime {
+  0% {
     left: 0;
-    background-color: red;
-    rotate: 0;
+    top: 0;
   }
-  to {
+  100% {
     left: 70%;
-    background-color: blue;
-    rotate: 360deg;
+    top: 50%;
   }
 }
