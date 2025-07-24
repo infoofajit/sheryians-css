@@ -28,15 +28,20 @@ html, body {
   justify-self: start;
 }
 
+/* Unit vw/vh: plays important role in responsive. On resize scree, it also resize its size */
 #parent {
-  width: 400px;
-  height: 400px;
+  width: 30vw;
+  height: 30vw;
   background-color: green;
 }
 
-/* Unit % take the w/h in percent of its parent */
 #child {
   width: 50%;
   height: 50%;
   background-color: yellow;
+}
+
+/* Font reduce automatically on resize screen */
+h1 {
+  font-size: 10vw;
 }
