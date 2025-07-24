@@ -34,9 +34,9 @@ html, body {
   background-color: green;
 }
 
-/* px remain fixed on change screen sizes. So, if user resize screen, or change device it remain same */
+/* Unit % take the w/h in percent of its parent */
 #child {
-  width: 200px;
-  height: 200px;
+  width: 50%;
+  height: 50%;
   background-color: yellow;
 }
