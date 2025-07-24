@@ -9,6 +9,11 @@ html, body {
   height: 100%;
 }
 
+#main {
+  width: 100%;
+  height: 100%;
+}
+
 #nav {
   background-color: antiquewhite;
   display: grid;
@@ -21,4 +26,17 @@ html, body {
 
 #nav h1 {
   justify-self: start;
+}
+
+#parent {
+  width: 400px;
+  height: 400px;
+  background-color: green;
+}
+
+/* px remain fixed on change screen sizes. So, if user resize screen, or change device it remain same */
+#child {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
 }
